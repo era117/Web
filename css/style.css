@@ -213,7 +213,7 @@ body {
 /*INTRO*/
 .intro {
   background-color: #111111;
-  height: 100vh;
+  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
