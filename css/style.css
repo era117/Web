@@ -259,6 +259,8 @@ body {
 }
 .about__photo {
   border-radius: 10px;
+  max-width:100%;
+  height:auto;
 }
 .about__panel {
   height: 48px;
@@ -700,10 +702,50 @@ textarea {
   /*ABOUT*/
 }
 @media (max-width: 667px) {
+  .about__body{
+    margin-left:0;
+  }
   .header.show {
     padding: 17px 10px;
     height: 75px;
     z-index: 1000;
+  }
+  .title{
+    font-size:35px;
+    line-height:1.2;
+  }
+  .testimonials__Text{
+    font-size:14px;
+    line-height:1.2;
+  }
+    .services__headline{
+    font-size:14px;
+    line-height:1.2;
+  }
+  .services__title{
+        font-size:35px;
+        line-height:1.2;
+  }
+    .works__text{
+    font-size:14px;
+    line-height:1.2;
+  }
+  .title .test__border::after, .title span.border::after{
+    bottom:45px;
+    left:29%;
+  }
+  
+  .team__item:nth-child(even){
+    padding-right:0;
+  }
+  .service__item:nth-child(even){
+      padding-right:0;
+  }
+  .friends__img img:first-child{
+    margin-left:0;
+  }
+  .works__photo:nth-child(even){
+    padding-right:0;
   }
 
   .header__menu.burger__menu {
